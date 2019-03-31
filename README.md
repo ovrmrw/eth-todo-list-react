@@ -1,3 +1,29 @@
+# eth-todo-list-react
+
+---
+
+## Setup
+
+```
+$ npm install
+```
+
+Run Ganache's local blockchain at `http://127.0.0.1:7545` .
+
+Install MetaMask for your Chrome browser and set network to `http://127.0.0.1:7545` .
+
+```
+$ npm run migrate
+```
+
+## Run
+
+```
+$ npm start
+```
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -7,24 +7,39 @@
     "@types/node": "11.12.2",
     "@types/react": "16.8.10",
     "@types/react-dom": "16.8.3",
+    "bootstrap": "4.3.1",
     "react": "^16.8.6",
+    "react-bootstrap": "1.0.0-beta.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
-    "typescript": "3.4.1"
+    "truffle-contract": "4.0.11",
+    "typescript": "3.4.1",
+    "web3": "1.0.0-beta.51"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compile": "truffle compile --network development",
+    "compile:all": "truffle compile --all --network development",
+    "migrate": "truffle migrate --network development",
+    "test:sol": "truffle test"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "engines": {
+    "node": ">= 10",
+    "npm": ">= 6.4"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "truffle": "5.0.10"
+  }
 }
